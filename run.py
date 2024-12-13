@@ -91,7 +91,7 @@ def standardize_excel(df):
     return df
 
 def main():
-    st.title("Upload et Traitement de Fichier Excel")
+    st.title("Transformation automatique des colonnes pour permettre l'importation dans GC")
 
     # Chargement du fichier
     uploaded_file = st.file_uploader("Veuillez uploader un fichier Excel", type=["xlsx", "xls"])
