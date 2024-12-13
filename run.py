@@ -99,7 +99,7 @@ def main():
     if uploaded_file is not None:
         try:
             # Lecture du fichier Excel
-            df = pd.read_excel(uploaded_file, engine='openpyxl')
+            df = pd.read_excel(uploaded_file)
 
             # Affichage des données
             st.success("Fichier chargé avec succès ! Voici un aperçu des données :")
