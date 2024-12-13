@@ -120,7 +120,7 @@ def main():
             st.download_button(
                 label="Télécharger le fichier transformé",
                 data=convert_df_to_excel(df_transformed),
-                file_name="fichier_transforme.xlsx"
+                file_name="fichier_transforme_GC.xlsx"
             )
 
         except Exception as e:
